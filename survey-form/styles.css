@@ -1,0 +1,70 @@
+
+
+
+form {
+  padding: 25px;
+  margin: auto;
+  max-width: 600px;
+  background-color: #928779;
+  border-radius: 5px;
+}
+
+#title, #description {
+ text-align: center;
+}
+
+
+input[type="radio"], input[type="checkbox"] {
+  margin-bottom:8px;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+  transform: scale(1.5);
+}
+
+fieldset{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin: 15px auto;
+}
+
+span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+body {
+  font-size: 14px;
+  font-family: Tahoma;
+  background-color: #5E5768;
+  color: whitesmoke;
+}
+
+ input[type=submit] {
+  display:block;
+  background-color: indigo;
+  border-radius: 5px;
+  color: whitesmoke;
+  padding: 10px 40px;
+  text-decoration: none;
+  margin: 0 auto;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+}
+
+input[type=text], input[type=email], input[type=number]{
+  height:28.4px;
+  margin-bottom: 8px;
+  border:1px solid #AAAAAA; 
+}
+
+select  {
+  border:1px solid #AAAAAA;
+  font-size: 14px !important;
+  height: 30px !important;
+}
+
+input, select, textarea {
+  border-radius: 5px;
+}
