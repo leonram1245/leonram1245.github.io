@@ -17,6 +17,7 @@ input[type="radio"], input[type="checkbox"] {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
   transform: scale(1.5);
+  cursor: pointer;
 }
 
 fieldset{
@@ -33,7 +34,7 @@ span {
 
 body {
   font-size: 14px;
-  font-family: "Roboto", Tahoma;
+  font-family:  Tahoma;
   background-color: #5E5768;
   color: whitesmoke;
 }
@@ -59,7 +60,7 @@ input[type=text], input[type=email], input[type=number]{
 
 select  {
   border:1px solid #AAAAAA;
-  font-size: 14px !important;
+  font-size: 16px !important;
   height: 30px !important;
 }
 
